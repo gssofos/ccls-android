@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/menu/glse20options.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/menu/glse20options.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/menu/main.xml"
+    }
+]

@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#fff"
+    
+>
+
+    
+    
+     <LinearLayout
+        android:id="@+id/dat_control_layout"
+		    
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"  
+    	android:background="#fff"
+    	>
+    		
+       
+    
+    
+ <Spinner
+        android:id="@+id/datumList"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="@string/nullstr"
+        android:textSize="15sp"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt"
+          />
+ 
+     
+     </LinearLayout>
+     
+     
+     <LinearLayout
+        android:id="@+id/control_layout"
+		    
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"  
+    	android:background="#fff"
+    	>
+    		
+         
+          <ToggleButton
+              android:id="@+id/ktima_button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textOn="map" 
+              android:textOff="map" 
+              />
+          
+    		<ToggleButton
+              android:id="@+id/web_log_button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textOn="weblog" 
+              android:textOff="weblog" 
+              />
+    		
+    		<ToggleButton
+              android:id="@+id/snap_photo_button"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textOn="photo" 
+              android:textOff="photo" 
+              />
+    		
+
+    		
+           <TextView
+        android:id="@+id/webLogInfoDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="@string/nullstr"
+        android:textSize="15sp"
+         android:background="#fff" /> 
+         
+         </LinearLayout>
+     
+     
+      
+      
+      <LinearLayout
+        android:id="@+id/map_layout"
+		    
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    
+    	android:background="#000"
+    	>
+
+          
+
+	    <com.geocloud.app.DrawOnTop 
+	        android:id="@+id/ktima_image"
+		   	android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		     android:scaleType="fitXY"
+		   
+		   
+	   />
+	    
+	     
+
+      
+       
+	  
+	    
+    </LinearLayout> 
+      
+      
+      
+      
+      <LinearLayout
+        android:id="@+id/photo_layout"
+		    
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"    
+    	android:background="#000"
+    	>
+      
+     <com.geocloud.app.PhotoSurfaceView
+	        android:id="@+id/photoSurfaceView"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	       
+	        />
+	        
+        </LinearLayout>
+     
+           <TextView
+        android:id="@+id/infoDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="@string/nullstr"
+        android:textSize="15sp"
+         android:background="#fff" /> 
+         
+               <TextView
+        android:id="@+id/debugDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:text="@string/nullstr"
+        android:textSize="15sp"
+         android:background="#fff" /> 
+          
+      
+    
+</LinearLayout>

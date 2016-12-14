@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" 
+        android:textSize="45sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tvDisplay"
+        />
+    	
+     
+     
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="250dp"
+         android:text="@string/bAdd"
+         android:id="@+id/bAdd"
+          android:textSize="35sp"
+         android:layout_gravity="center"
+         
+         />
+     
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="250dp"
+         android:text="@string/bSub"
+         android:id="@+id/bSub"
+          android:textSize="35sp"
+         android:layout_gravity="center"
+         
+         />
+     
+     
+</LinearLayout>

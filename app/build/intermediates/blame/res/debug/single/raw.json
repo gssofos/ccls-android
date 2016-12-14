@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/per_pixel_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/per_pixel_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/g5000.csv",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/g5000.csv"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/mypoint_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/mypoint_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/mypoint_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/mypoint_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/text_per_pixel_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/text_per_pixel_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/hcoi.csv",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/hcoi.csv"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/mypoly_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/mypoly_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/hco.csv",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/hco.csv"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/cross_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/cross_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/text_per_pixel_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/text_per_pixel_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/cross_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/cross_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/mypoly_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/mypoly_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/color_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/color_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/point_vertex_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/point_vertex_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/point_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/point_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/hcoi_kena.csv",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/hcoi_kena.csv"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/per_pixel_fragment_shader.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/per_pixel_fragment_shader.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/per_pixel_fragment_shader2.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/per_pixel_fragment_shader2.glsl"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/raw/per_pixel_vertex_shader2.glsl",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/raw/per_pixel_vertex_shader2.glsl"
+    }
+]

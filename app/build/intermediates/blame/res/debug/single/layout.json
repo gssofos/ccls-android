@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/simpe_selectable_list_item.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/simpe_selectable_list_item.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/activity_pl2303_hxdsimple_test.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/activity_pl2303_hxdsimple_test.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/activity_gps_location.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/activity_gps_location.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/layout/activity_gps_location_bk.xml",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/layout/activity_gps_location_bk.xml"
+    }
+]

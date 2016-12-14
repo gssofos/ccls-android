@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BaudRate_Var">
+        <item>9600</item>
+        <item>19200</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>WGS 84</item>
+        <item>ΕΓΣΑ 87</item>
+        <item>HATT</item>
+    </string-array>
+    <string-array name="marker">
+            <item>Ballon</item>
+            <item>GCP</item>
+        </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">geoCloud</string>
+    <string name="bAdd">add</string>
+    <string name="bGims">get info</string>
+    <string name="bSub">subtract</string>
+    <string name="country_prompt">Select Datum</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nullstr"/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
