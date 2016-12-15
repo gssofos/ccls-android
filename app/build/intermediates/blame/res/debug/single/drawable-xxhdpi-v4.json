@@ -60,11 +60,11 @@
         "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-xxhdpi/calc_off.png"
     },
     {
-        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bt_on.png",
-        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-xxhdpi/bt_on.png"
-    },
-    {
         "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/stasi_80.png",
         "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-xxhdpi/stasi_80.png"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bt_on.png",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-xxhdpi/bt_on.png"
     }
 ]

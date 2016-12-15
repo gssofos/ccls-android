@@ -278,7 +278,7 @@ public class MyGLSE20app extends Activity
 		ll_wraper 	= new RelativeLayout(this.getBaseContext());	/*ll_footer.setOrientation(1);*/					//ll_wraper.setBackgroundColor(Color.argb(100,100, 0, 0));
 		ll_wraper.setGravity(Gravity.BOTTOM);
 		RelativeLayout.LayoutParams layout_params;
-		layout_params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, 120);
+		layout_params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.FILL_PARENT, 160);
 		ll_wraper.addView(ll_footer, layout_params);
 		
 		
@@ -701,7 +701,7 @@ public class MyGLSE20app extends Activity
 		
 		ll_main.addView(ll_bar, ViewGroup.LayoutParams.FILL_PARENT, 100);
 		//-ll_main.addView(ll_poly, ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-		ll_footer.addView(ll_text, 650, 120);
+		ll_footer.addView(ll_text, 720, 160);
 		ll_bar.addView(ll_tools, ViewGroup.LayoutParams.FILL_PARENT, 90);
 		ll_text.addView(text_debug);
 		ll_text.addView(text1);

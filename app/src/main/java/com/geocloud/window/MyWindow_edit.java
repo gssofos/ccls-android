@@ -77,80 +77,17 @@ public class MyWindow_edit {
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
 				
-				//arg1.setBackgroundColor();
-				//arg1.setSelected(true);;
-				//arg0.getChildAt(0).setSelected(true);
-				
-				//lv_poly.notifyAll();
 				MyParams tmp = get_params();
 				
-					/*if(arg2==0){
-										
-								if(tmp.event.lineSelected){
-									
-									tmp.web.httpCall(
-											"http://eds.culture.gr/_geo/php/_remove_line.php?id=" +tmp.event.selectedLineObject._id 
-													+ "&p=" 	+ tmp.activeProject._id);
-									
-									
-									
-									tmp.app.dbHelper.removeLineFromDb(tmp.event.selectedLineObject._id);
-									tmp.renderer.my_poly.item.remove(tmp.event.selectedLineObject);
-									tmp.renderer.my_poly.regen_coor();
-								}
-									}*/
+
 					if(arg2==1){
 						
 						setAddMode(!add_mode);
 						
 						tmp.event.clearSelectePoints();
-						
-						//tt.setTextColor(Color.RED);
-						//lv_poly.setSelected(true);
+
 					}
-					//if(arg2==2){
-					/*TextView tt4 = (TextView) lv_poly.getChildAt(3);
-					if(add_mode && !add_mode_p1_set){
-						add_mode_p1_set=true;
-						tt4.setText("Next point");;
-					}else	if(add_mode && add_mode_p1_set){
-						
-						
-						tmp.renderer.my_poly.lastPoly.setFlag(0);
-						add_mode_p1_set=true;
-						
-						
-						
-						
-						
-						
-						double[] mc = new double[4];mc[0]=tmp.event.selectedx;mc[1]=tmp.event.selectedy;mc[2]=tmp.event.selected2x;mc[3]=tmp.event.selected2y;
-						tmp.app.dbHelper.addLineToDb(tmp.renderer.my_poly.lastPoly,0, 0, 0, 0, mc);
-						
-						
-						tmp.web.httpCall(
-								"http://eds.culture.gr/_geo/php/_add_line.php?x1=" +tmp.event.selectedx 
-										+ "&y1=" 	+ tmp.event.selectedy 
-										+ "&x2=" 	+ tmp.event.selected2x
-										+ "&y2=" 	+ tmp.event.selected2y 
-										+ "&id=" 	+ tmp.renderer.my_poly.lastPoly._id 
-										+ "&p=" 	+ tmp.activeProject._id);
-						
-						
-						
-						
-						
-						
-						tmp.event.selectedx=tmp.event.selected2x;
-						tmp.event.selectedy=tmp.event.selected2y;
-						//tmp.renderer.pointHighlight.removeByFlag(1);
-						tt4.setText("Next point");;
-					}*/
-				//}
-				//if(arg2==2){
-				//	hide();
-					//get_params().mode.set_edit_line(false);
-				//}
+
 				if(arg2==0){
 					tmp.app.dbHelper.removeLineFromDb(tmp.renderer.my_poly.lastPoly._id);
 					
@@ -159,21 +96,7 @@ public class MyWindow_edit {
 				// TODO Auto-generated method stub
 				//if(arg2==4) ll_poly_tools.removeView(lv_poly);
 				//Log.i("clicked","clicked " + arg2);
-				/*super.onListItemClick(l, v, position, id);
-				if(position==1){
-					showDialog(1);
-					
-				}else{
-				
-					String cheese  =  classes[position];
-					try{
-							Class ourClass = Class.forName("com.geocloud.app." + cheese);
-							Intent ourIntent = new Intent(menu.this,ourClass);
-							startActivity(ourIntent);
-					}catch(ClassNotFoundException e){
-							e.printStackTrace();
-					}
-				}*/
+
 				
 			}
 		}
@@ -240,15 +163,10 @@ public class MyWindow_edit {
 			if(value){
 				
 				tt.setBackgroundColor(Color.argb(254, 239, 62, 54));
-				//tt4.setTextColor(Color.argb(255, 255, 255, 255));
-				//tt2.setTextColor(Color.argb(255, 111, 111, 111));
 				tt3.setTextColor(Color.argb(255, 111, 111, 111));
-				//tt4.setText("Set Start");;
 			}else{
 				tt.setBackgroundColor(Color.TRANSPARENT);
-				//tt2.setTextColor(Color.argb(255, 255, 255, 255));
 				tt3.setTextColor(Color.argb(255, 255, 255, 255));
-				//tt4.setTextColor(Color.argb(255, 111, 111, 111));
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

@@ -576,7 +576,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 		    while (!cursor.isAfterLast()) {
 		    	counter++;
 		    	MyMeasureSet periodos = cursorToPeriodos(cursor);
-		    	//Log.i("--periodos load ","dbpn : " + counter);
+		    	Log.i("--periodos load ","dbpn : " + counter);
 		    	params.msets.add(periodos);
 		    	cursor.moveToNext();
 		    }
@@ -640,7 +640,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 		    while (!cursor.isAfterLast()) {
 		    	counter++;
 		    	stasi_link_class st = cursorToStasiLink(cursor);
-		    	//Log.i("--con_project_stasi load ","dbpn : "  + st._id + " - " + st.isbase);
+		    	Log.i("--con_project_stasi ","dbpn : "  + st._id + " - " + st.isbase);
 		    	params.activeProject.addStasiLink(st,false);
 		    	cursor.moveToNext();
 		    }

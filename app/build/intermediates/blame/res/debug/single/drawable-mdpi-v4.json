@@ -44,12 +44,12 @@
         "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-mdpi/stasi_80_off.png"
     },
     {
-        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/pin_80.png",
-        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-mdpi/pin_80.png"
-    },
-    {
         "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/edit_yellow_256.png",
         "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-mdpi/edit_yellow_256.png"
+    },
+    {
+        "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/pin_80.png",
+        "source": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/src/main/res/drawable-mdpi/pin_80.png"
     },
     {
         "merged": "/Users/sofos/projects/phd/software/android/geocloud_mac/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/poly.png",
